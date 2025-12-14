@@ -1,0 +1,25 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "Backend API for Task Manager with MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "sync-db": "node config/sync-db.js"
+  },
+  "keywords": ["tasks", "api", "mysql"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.34.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
